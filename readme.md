@@ -1,14 +1,14 @@
 Bit Mobile Store API
-Welcome to Bit Mobile Store, a powerful and modern RESTful API built with Django Rest Framework (DRF) for managing a mobile phone store. This project provides a comprehensive backend for handling products, categories, user authentication, and advanced filtering, designed for scalability and ease of use.
+Welcome to Bit Mobile Store, a robust and modern RESTful API built with Django Rest Framework (DRF) for managing a mobile phone store. This project provides a scalable backend for handling products, categories, user authentication, and advanced filtering.
 🚀 Features
 
 CRUD Operations: Create, read, update, and delete products and categories.
 User Authentication: Secure JWT-based authentication with login, logout, and registration endpoints.
 Permission Control: Role-based access (e.g., only admins can delete categories, users who created products can edit them).
-Data Validation: Robust input validation to ensure data integrity (e.g., positive prices, non-negative stock).
+Data Validation: Robust input validation for data integrity (e.g., positive prices, non-negative stock).
 Advanced Filtering: Search, sort, and filter products by category, price, stock, and more.
 Browsable API: Interactive API interface for easy testing and exploration.
-Custom Permissions: Tailored access rules, like allowing only users with created products to edit them.
+Custom Permissions: Tailored rules, like allowing only users with created products to edit them.
 
 📋 Prerequisites
 Before running the project, ensure you have the following installed:
@@ -22,7 +22,7 @@ PostgreSQL or SQLite (default database)
 Follow these steps to set up the project locally:
 
 Clone the Repository:
-git clone https://github.com/erfunzi/bit-mobile-store.git
+git clone https://github.com/your-username/bit-mobile-store.git
 cd bit-mobile-store
 
 
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 Set Up the Database:
 
-Ensure your database is configured in bit_store/settings.py (default is SQLite).
+Configure your database in bit_store/settings.py (default is SQLite).
 Run migrations to create the database schema:python manage.py makemigrations
 python manage.py migrate
 
