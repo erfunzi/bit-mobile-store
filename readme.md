@@ -1,6 +1,6 @@
 # Bit Mobile Store API
 
-Welcome to **Bit Mobile Store**, a robust and modern RESTful API built with **Django Rest Framework (DRF)** for managing a mobile phone store. This project provides a scalable backend for handling products, categories, user authentication, and advanced filtering.
+Welcome to **Bit Mobile Store**, a RESTful API built with **Django Rest Framework (DRF)** for managing a mobile phone store. This project provides a scalable backend for handling products, categories, user authentication, and advanced filtering.
 
 ## 🚀 Features
 
@@ -14,7 +14,7 @@ Welcome to **Bit Mobile Store**, a robust and modern RESTful API built with **Dj
 
 ## 📋 Prerequisites
 
-Before running the project, ensure you have the following installed:
+Before running the project, ensure you have the following installed :
 
 - Python 3.8+
 - pip (Python package manager)
@@ -143,34 +143,6 @@ bit-mobile-store/
 ├── manage.py          # Django management script
 └── README.md          # This file
 ```
-
-## 🧪 Testing
-
-You can test the API using:
-- **Browsable API**: Access endpoints like `http://127.0.0.1:8000/api/products/` in a browser.
-- **Postman**: Import the API endpoints and test with JWT tokens.
-- **cURL**: Use command-line requests as shown in examples.
-
-To create test data:
-1. Log in to the Django Admin (`/admin/`) with a superuser account.
-2. Add categories (e.g., "Samsung", "Apple") and products (e.g., "Galaxy S23").
-
-## 🚧 Future Improvements
-
-- Add support for product images (file uploads).
-- Implement a shopping cart and order management system.
-- Add pagination to API responses.
-- Integrate email verification for user registration.
-- Write unit tests for models, serializers, and views.
-
-## 🤝 Contributing
-
-Contributions are welcome! To contribute:
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature`.
-3. Commit your changes: `git commit -m "Add your feature"`.
-4. Push to the branch: `git push origin feature/your-feature`.
-5. Open a Pull Request.
 
 ## 📧 Contact
 
